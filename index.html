@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="static/style.css">
     <script defer src="./static/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaishnavi Palasamudrum</title>
@@ -10,7 +11,7 @@
     <meta name="keywords" content="Carnegie Mellon University, Information Systems">
     <meta name="description" content="Vaishnavi Palasamudrum professional website">
 </head>
-<body>
+<body onload = "addYear(); greetingFunc();">
     <header>
         <h1 id="webname">
             vaishnavi palasamudrum
@@ -25,10 +26,15 @@
         <h2 id = "greeting"></h2>
         <img src="static/IMG_8244.jpg" alt="Vaishnavi Headshot" width="300" height="400">
 
-        <p>I am an Information Systems student at Carnegie Mellon University, passionate about exploring the intersection between technology and business. Through my academic and extracurricular experiences, I have developed a strong foundation in software engineering and enjoy collaborating on innovative solutions that make an impact.</p>
+        
+        <p id="shortIntro">My name is Vaishnavi Palasamudrum!</p>
+        <span id="readMore" class = "readmoreless">Read More</span>
+        
+        <p id="longIntro">I am an Information Systems student at Carnegie Mellon University, passionate about exploring the intersection between technology and business. Through my academic and extracurricular experiences, I have developed a strong foundation in software engineering and enjoy collaborating on innovative solutions that make an impact.</p>
+        <span id="readLess" class = "readmoreless">Read Less</span>
     </div>
     <footer>
-        © 2025 designed and coded by Vaishnavi Palasamudrum
+        <p id="copyYear"> designed and coded by Vaishnavi Palasamudrum &copy</p>
     </footer>
     
 </body>

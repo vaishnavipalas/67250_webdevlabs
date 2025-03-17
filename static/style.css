@@ -50,3 +50,22 @@ button {
     border: none;
     border-radius: 5px;
 }
+
+#FavList {
+    display: none;
+}
+
+#readLess {
+    display: none;
+}
+
+#longIntro {
+    display: none;
+}
+
+.readmoreless {
+    background-color: #2b2d42;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
