@@ -1,0 +1,71 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+#webname {
+    background-color: #2b2d42;
+    color: white;
+}
+
+body {
+    background-color: #edf2f4;
+}
+
+nav a {
+    text-decoration: None;
+    color: #2b2d42;
+    margin-right: 15px;
+
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #2b2d42;
+    color: white;
+    width: fit-content;
+}
+
+table tr:nth-child(even) {
+    background-color: #8d99ae;
+}
+
+form * {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    background-color: #2b2d42;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#FavList {
+    display: none;
+}
+
+#readLess {
+    display: none;
+}
+
+#longIntro {
+    display: none;
+}
+
+.readmoreless {
+    background-color: #2b2d42;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
