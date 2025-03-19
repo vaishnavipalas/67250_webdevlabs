@@ -51,9 +51,9 @@ button {
     border-radius: 5px;
 }
 
-#FavList {
+/* #FavList {
     display: none;
-}
+} */
 
 #readLess {
     display: none;
@@ -68,4 +68,22 @@ button {
     color: white;
     border: none;
     border-radius: 5px;
+}
+
+.funIMG {
+    border-radius: 100%;
+    width:400px;
+    height:300px;
+}
+
+.container {
+    border-radius: 100%; 
+    display: inline-block;
+    border-radius: 5%; 
+    box-shadow: 5px 5px 10px grey;
+}
+
+.mainLayout{
+    display: flex;
+    flex-wrap: wrap;
 }

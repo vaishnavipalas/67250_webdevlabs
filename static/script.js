@@ -72,10 +72,10 @@ function addYear () {
 }
 
 
-function showList() {
-    document.getElementById("FavList").style.display = "block";
-    document.getElementById("SeeMoreBTN").style.display = "none";
-}
+// function showList() {
+//     document.getElementById("FavList").style.display = "block";
+//     document.getElementById("SeeMoreBTN").style.display = "none";
+// }
 
 $("#readMore").click(function() {
     $("#longIntro").show();
@@ -124,3 +124,15 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
+
+async function getAdvice() {
+    fetch("https://api.adviceslip.com/advice")
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("adviceText").innerHTML = data.slip.advice
+          })
+          .catch(error => console.error("Error fetching advice:", error));
+
+    
+}

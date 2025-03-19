@@ -21,15 +21,30 @@
             <a href="contact.html">contact</a>
             <a href="fun.html">fun</a></nav>
     </header>
-    <div class="main">
-        <h2>Things I love to do for fun</h2>
-        <button id="SeeMoreBTN" onclick="showList()">Click to see...</button>
-        <ul id="FavList">
-            <li>Travel</li>
-            <li>Cook/bake</li>
-            <li>Listen to music</li>
-            <li>Hang out with friends</li>
-          </ul>
+    <div class="mainLayout">
+          <div class="item1"><h2>Things I love to do for fun</h2>
+            <!-- <button id="SeeMoreBTN" onclick="showList()">Click to see...</button> -->
+            <ul id="FavList">
+                <li>Travel</li>
+                <li>Cook/bake</li>
+                <li>Listen to music</li>
+                <li>Hang out with friends</li>
+              </ul></div>
+          <div class = "item2">
+            <img class ="funIMG" src = "../static/friends.JPG">
+          </div>
+          <div class="item3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1OF3icemRJc?si=9dogGSak-nhSASZx" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="item4">
+            <div class = "container">
+                <h2>Need some advice?</h2>
+                <p id="adviceText">Click the button to get a random piece of advice!</p>
+                <button id="SeeMoreBTN" onclick="getAdvice()">Get Advice</button>
+            </div>
+          </div>
     </div>
     <footer>
         <p id="copyYear"> designed and coded by Vaishnavi Palasamudrum &copy</p>
